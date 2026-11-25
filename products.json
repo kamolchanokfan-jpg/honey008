@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "BAAN NECTAR Wildflower Honey",
+    "mood": "wildflower",
+    "type": "honey",
+    "size": "120g",
+    "price": 89,
+    "image": "images/wildflower.jpg",
+    "description": "น้ำผึ้งดอกไม้ป่าหอมละมุน มีรสหวานเป็นเอกลักษณ์จากดอกไม้นานาชนิด"
+  },
+  {
+    "id": 2,
+    "name": "BAAN NECTAR Wildflower Honey",
+    "mood": "wildflower",
+    "type": "honey",
+    "size": "250g",
+    "price": 159,
+    "image": "images/wildflower.jpg",
+    "description": "น้ำผึ้งดอกไม้ป่าขนาดกลาง หอมหวานจากธรรมชาติ เหมาะสำหรับรับประทานและผสมเครื่องดื่ม"
+  },
+  {
+    "id": 3,
+    "name": "BAAN NECTAR Longan Honey",
+    "mood": "longan",
+    "type": "honey",
+    "size": "120g",
+    "price": 89,
+    "image": "images/longan.jpg",
+    "description": "น้ำผึ้งดอกลำไย รสหวานเข้มข้น มีกลิ่นหอมเฉพาะตัวและรสชาติกลมกล่อม"
+  },
+  {
+    "id": 4,
+    "name": "BAAN NECTAR Longan Honey",
+    "mood": "longan",
+    "type": "honey",
+    "size": "250g",
+    "price": 159,
+    "image": "images/longan.jpg",
+    "description": "น้ำผึ้งดอกลำไยขนาดกลาง เหมาะสำหรับใช้ในชีวิตประจำวันและเป็นส่วนผสมในอาหาร"
+  },
+  {
+    "id": 5,
+    "name": "BAAN NECTAR Lychee Honey",
+    "mood": "lychee",
+    "type": "honey",
+    "size": "120g",
+    "price": 89,
+    "image": "images/lychee.jpg",
+    "description": "น้ำผึ้งดอกลิ้นจี่ กลิ่นหอมอ่อนๆ รสหวานละมุน เหมาะสำหรับผสมเครื่องดื่ม"
+  },
+  {
+    "id": 6,
+    "name": "BAAN NECTAR Lychee Honey",
+    "mood": "lychee",
+    "type": "honey",
+    "size": "250g",
+    "price": 159,
+    "image": "images/lychee.jpg",
+    "description": "น้ำผึ้งดอกลิ้นจี่ขนาดกลาง ให้รสหวานนุ่มนวล เพิ่มความหอมให้กับเมนูโปรด"
+  },
+  {
+    "id": 7,
+    "name": "BAAN NECTAR Forest Honey",
+    "mood": "forest",
+    "type": "honey",
+    "size": "120g",
+    "price": 89,
+    "image": "images/forest.jpg",
+    "description": "น้ำผึ้งป่าที่มีรสหวานเข้มข้นและกลิ่นหอมเป็นธรรมชาติ มีเอกลักษณ์เฉพาะตัว"
+  },
+  {
+    "id": 8,
+    "name": "BAAN NECTAR Forest Honey",
+    "mood": "forest",
+    "type": "honey",
+    "size": "250g",
+    "price": 159,
+    "image": "images/forest.jpg",
+    "description": "น้ำผึ้งป่าขนาดกลาง สำหรับผู้ที่ชื่นชอบรสชาติหวานเข้มและกลิ่นหอมจากธรรมชาติ"
+  },
+  {
+    "id": 9,
+    "name": "BAAN NECTAR Wildflower Honey",
+    "mood": "wildflower",
+    "type": "honey",
+    "size": "500g",
+    "price": 259,
+    "image": "images/wildflower.jpg",
+    "description": "น้ำผึ้งดอกไม้ป่าขนาดใหญ่ คุ้มค่าสำหรับครอบครัวและผู้ที่ชื่นชอบน้ำผึ้ง"
+  },
+  {
+    "id": 10,
+    "name": "BAAN NECTAR Longan Honey",
+    "mood": "longan",
+    "type": "honey",
+    "size": "500g",
+    "price": 259,
+    "image": "images/longan.jpg",
+    "description": "น้ำผึ้งดอกลำไยขนาดใหญ่ รสหวานหอมเข้มข้น เหมาะสำหรับรับประทานเป็นประจำ"
+  }
+]

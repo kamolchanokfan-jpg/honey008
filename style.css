@@ -1,0 +1,203 @@
+/* =================================
+   BAAN NECTAR - PREMIUM HONEY BRAND
+   Global Stylesheet
+================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Prompt:wght@300;400;500;600&display=swap');
+
+:root {
+  --cream: #F8F5EF;
+  --ivory: #FFFEFA;
+  --beige: #E8DFD0;
+  --dark-beige: #B7A58C;
+  --brown: #554535;
+  --dark-brown: #34291F;
+  --gold: #B99A62;
+  --bronze: #9D8055;
+  --text: #40372E;
+  --muted: #898074;
+  --border: #DED6CA;
+
+  --wildflower: #536B4D;
+  --longan: #8870A0;
+  --lychee: #A96F78;
+  --forest: #53645A;
+
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Prompt', sans-serif;
+  --transition: all 0.3s ease;
+}
+
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  font-weight: 300;
+  color: var(--text);
+  background: var(--ivory);
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; cursor: pointer; }
+
+/* Typography */
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--dark-brown);
+}
+h1 { font-size: clamp(2.5rem, 6vw, 5rem); }
+h2 { font-size: clamp(2rem, 4vw, 3.2rem); }
+h3 { font-size: 1.5rem; }
+p { color: var(--muted); }
+
+/* Layout */
+.container { width: min(90%, 1200px); margin: 0 auto; }
+.section { padding: 100px 0; }
+.section-title { text-align: center; margin-bottom: 60px; }
+.section-title p { margin-top: 15px; letter-spacing: 2px; font-size: .85rem; }
+
+/* Header */
+.header {
+  width: 100%;
+  padding: 22px 5%;
+  background: var(--ivory);
+  border-bottom: 1px solid var(--border);
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.logo {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  letter-spacing: 3px;
+  color: var(--dark-brown);
+}
+.logo span { color: var(--gold); }
+.nav { display: flex; align-items: center; gap: 35px; }
+.nav a { font-size: .9rem; transition: var(--transition); }
+.nav a:hover { color: var(--bronze); }
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 13px 32px;
+  border: 1px solid var(--brown);
+  background: transparent;
+  color: var(--brown);
+  font-size: .9rem;
+  letter-spacing: 1px;
+  transition: var(--transition);
+}
+.btn:hover { background: var(--brown); color: var(--ivory); }
+.btn-primary { background: var(--brown); color: var(--ivory); }
+.btn-primary:hover { background: var(--dark-brown); }
+
+/* Hero */
+.hero { background: var(--cream); padding: 110px 0; }
+.hero-content { max-width: 750px; }
+.hero-subtitle {
+  color: var(--bronze);
+  letter-spacing: 4px;
+  font-size: .85rem;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.hero-description { max-width: 550px; margin: 25px 0 35px; font-size: 1rem; }
+
+/* Product Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 35px 25px;
+}
+.product-card { background: var(--ivory); transition: var(--transition); }
+.product-card:hover { transform: translateY(-5px); }
+.product-image {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  background: var(--cream);
+}
+.product-info { padding: 20px 5px; }
+.product-name { font-family: var(--font-heading); font-size: 1.2rem; margin-bottom: 8px; }
+.product-description { font-size: .85rem; margin-bottom: 12px; }
+.product-price { color: var(--dark-brown); font-weight: 500; font-size: 1rem; }
+
+/* Honey Variety Accent */
+.variety-label {
+  display: inline-block;
+  font-size: .72rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.variety-label.wildflower { color: var(--wildflower); }
+.variety-label.longan { color: var(--longan); }
+.variety-label.lychee { color: var(--lychee); }
+.variety-label.forest { color: var(--forest); }
+
+/* Product Detail */
+.product-detail { padding: 70px 0; }
+.product-detail-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: center;
+}
+.product-detail-image { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; }
+.product-detail-info { padding: 20px 0; }
+.product-detail-info h1 { margin-bottom: 20px; }
+.product-detail-info p { margin-bottom: 20px; }
+
+/* Forms */
+input, select, textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  background: var(--ivory);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: .9rem;
+  outline: none;
+}
+input:focus, select:focus, textarea:focus { border-color: var(--bronze); }
+
+/* Footer */
+.footer { background: var(--dark-brown); color: var(--cream); padding: 65px 0 30px; }
+.footer-content { display: flex; justify-content: space-between; gap: 40px; }
+.footer h3, .footer .logo { color: var(--cream); }
+.footer p { color: var(--beige); margin-top: 12px; font-size: .85rem; }
+.footer-bottom {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255,255,255,.15);
+  text-align: center;
+  font-size: .8rem;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .product-grid { grid-template-columns: repeat(2, 1fr); }
+  .product-detail-content { gap: 35px; }
+  .section { padding: 75px 0; }
+}
+@media (max-width: 600px) {
+  .header-content { flex-direction: column; gap: 15px; }
+  .nav { flex-wrap: wrap; justify-content: center; gap: 18px; }
+  .logo { font-size: 1.5rem; }
+  .hero { padding: 75px 0; }
+  .product-grid { grid-template-columns: repeat(2, 1fr); gap: 20px 12px; }
+  .product-info { padding: 12px 3px; }
+  .product-name { font-size: 1rem; }
+  .product-detail-content { grid-template-columns: 1fr; }
+  .section { padding: 55px 0; }
+  .footer-content { flex-direction: column; }
+}
